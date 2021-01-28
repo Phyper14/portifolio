@@ -1,17 +1,23 @@
 body {
-    background: #fcfcfc;
+    background: #f7f7f7;
+}
+
+.banner {
+    border: 1px solid #505050;
+    border-radius: 50%;
 }
 
 #title,
 .subtitle,
 .post_title {
-    color: blue;
+    color: #505050;
 }
 
 .post_title {
     font-size: 16px;
     font-style: italic;
-    margin: 0 0 15px;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .post {
@@ -20,4 +26,14 @@ body {
     border: 2px solid #505050;
     border-radius: 5px;
     margin-top: 15px;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_image {
+    margin: 0;
+    margin-bottom: 15px;
 }
